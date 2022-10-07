@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Website</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+
+    <!-- custom js file link  -->
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div id="menu-btn" class="fas fa-bars"></div>
+
+      <a data-aos="zoom-in-left" data-aos-delay="150" href="#" class="logo">
+        <i class="fas fa-paper-plane"></i>travel
+      </a>
+
+      <nav class="navbar">
+        <a data-aos="zoom-in-left" data-aos-delay="300" href="#home">home</a>
+        <a data-aos="zoom-in-left" data-aos-delay="450" href="#about">about</a>
+        <a data-aos="zoom-in-left" data-aos-delay="600" href="#destination"
+          >destination</a
+        >
+        <a data-aos="zoom-in-left" data-aos-delay="750" href="#services"
+          >services</a
+        >
+        <a data-aos="zoom-in-left" data-aos-delay="900" href="#gallery"
+          >gallery</a
+        >
+        <a data-aos="zoom-in-left" data-aos-delay="1150" href="#blogs">blogs</a>
+      </nav>
+
+      <a
+        data-aos="zoom-in-left"
+        data-aos-delay="1300"
+        href="#book-form"
+        class="btn"
+        >book now</a
+      >
+    </header>
+
+    <section class="home" id="home">
+      <div class="content">
+        <span data-aos="fade-up" data-aos-delay="150">follow us</span>
+        <h3 data-aos="fade-up" data-aos-delay="300">to the unknown</h3>
+        <p data-aos="fade-up" data-aos-delay="450">
+          Collect Moment, Not Things.
+        </p>
+        <a data-aos="fade-up" data-aos-delay="600" href="#" class="btn"
+          >book now</a
+        >
+      </div>
+    </section>
+
+    <section class="book-form" id="book-form">
+      <form action="">
+        <div data-aos="zoom-in" data-aos-delay="150" class="inputBox">
+          <span>where to?</span>
+          <input type="text" placeholder="place name" value="" />
+        </div>
+        <div data-aos="zoom-in" data-aos-delay="300" class="inputBox">
+          <span>when?</span>
+          <input type="date" value="" />
+        </div>
+        <div data-aos="zoom-in" data-aos-delay="450" class="inputBox">
+          <span>how many?</span>
+          <input type="number" placeholder="number of travelers" value="" />
+        </div>
+        <input
+          data-aos="zoom-in"
+          data-aos-delay="600"
+          type="submit"
+          value="find now"
+          class="btn"
+        />
+      </form>
+    </section>
+
+    <section class="about" id="about">
+      <div class="video-container" data-aos="fade-right" data-aos-delay="300">
+        <video
+          src="images/about-vid-1.mp4"
+          muted
+          autoplay
+          loop
+          class="video"
+        ></video>
+        <div class="controls">
+          <span class="control-btn" data-src="images/about-vid-1.mp4"></span>
+          <span class="control-btn" data-src="images/about-vid-2.mp4"></span>
+          <span class="control-btn" data-src="images/about-vid-3.mp4"></span>
+        </div>
+      </div>
+
+      <div class="content" data-aos="fade-left" data-aos-delay="600">
+        <span>why choose us?</span>
+        <h3>Nature's Majesty Awaits You</h3>
+        <p>Blessed are the curious for they shall have adventures.</p>
+        <a href="#" class="btn">read more</a>
+      </div>
+    </section>
+
+    <section class="destination" id="destination">
+      <div class="heading">
+        <span>our destination</span>
+        <h1>make yours destination</h1>
+      </div>
+
+      <div class="box-container">
+        <div class="box" data-aos="fade-up" data-aos-delay="150">
+          <div class="image">
+            <img src="images/des-1.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>Hill</h3>
+            <p>
+              Breathless, we flung us on a windy hill, Laughed in the sun, and
+              kissed the lovely grass.
+            </p>
+            <a href="#">read more <i class="fas fa-angle-right"></i></a>
+          </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="300">
+          <div class="image">
+            <img src="images/des-2.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>Fountain</h3>
+            <p>Spring is the fountain of love for thirsty winter</p>
+            <a href="#">read more <i class="fas fa-angle-right"></i></a>
+          </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="450">
+          <div class="image">
+            <img src="images/des-3.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>River</h3>
+            <p>A river is more than an amenity, it is a treasure.</p>
+            <a href="#">read more <i class="fas fa-angle-right"></i></a>
+          </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="600">
+          <div class="image">
+            <img src="images/des-4.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>Hill</h3>
+            <p>
+              Hill and house should live together each the happier for the
+              other.
+            </p>
+            <a href="#">read more <i class="fas fa-angle-right"></i></a>
+          </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="750">
+          <div class="image">
+            <img src="images/des-5.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>sea</h3>
+            <p>Wild and free, just like the sea</p>
+            <a href="#">read more <i class="fas fa-angle-right"></i></a>
+          </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="900">
+          <div class="image">
+            <img src="images/des-6.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>Mountain</h3>
+            <p>The best view comes after the hardest climb</p>
+            <a href="#">read more <i class="fas fa-angle-right"></i></a>
+          </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="1150">
+          <div class="image">
+            <img src="images/des-7.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>island</h3>
+            <p>A smooth sea never made a skilled sailor.</p>
+            <a href="#">read more <i class="fas fa-angle-right"></i></a>
+          </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="1300">
+          <div class="image">
+            <img src="images/des-8.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>rocks</h3>
+            <p>My spirit soars where the air goes thin.</p>
+            <a href="#">read more <i class="fas fa-angle-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="heading">
+        <span>our services</span>
+        <h1>countless expericences</h1>
+      </div>
+
+      <div class="box-container">
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+          <i class="fas fa-globe"></i>
+          <h3>worldwide</h3>
+          <p>Services</p>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+          <i class="fas fa-hiking"></i>
+          <h3>adventures</h3>
+          <p>Travel for enough</p>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+          <i class="fas fa-utensils"></i>
+          <h3>food & drinks</h3>
+          <p>Good quality</p>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="600">
+          <i class="fas fa-hotel"></i>
+          <h3>affordable hotels</h3>
+          <p>luxurious</p>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="750">
+          <i class="fas fa-wallet"></i>
+          <h3>affordable price</h3>
+          <p>cheap rate tahn other</p>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="900">
+          <i class="fas fa-headset"></i>
+          <h3>24/7 support</h3>
+          <p>A dedicated team for that</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+      <div class="heading">
+        <span>our gallery</span>
+        <h1>we record memories</h1>
+      </div>
+
+      <div class="box-container">
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+          <img src="images/gallery-img-1.jpg" alt="" />
+          <span>travel spot</span>
+          <h3>iceland</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="images/gallery-img-2.jpg" alt="" />
+          <span>travel spot</span>
+          <h3>greenland</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+          <img src="images/gallery-img-3.jpg" alt="" />
+          <span>travel spot</span>
+          <h3>alaska</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+          <img src="images/gallery-img-4.jpg" alt="" />
+          <span>travel spot</span>
+          <h3>thailand</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="images/gallery-img-5.jpg" alt="" />
+          <span>travel spot</span>
+          <h3>brazil</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+          <img src="images/gallery-img-6.jpg" alt="" />
+          <span>travel spot</span>
+          <h3>maldive</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+          <img src="images/gallery-img-7.jpg" alt="" />
+          <span>travel spot</span>
+          <h3>iceland</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="images/gallery-img-8.jpg" alt="" />
+          <span>travel spot</span>
+          <h3>alaska</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+          <img src="images/gallery-img-9.jpg" alt="" />
+          <span>travel spot</span>
+          <h3>maldive</h3>
+        </div>
+      </div>
+    </section>
+
+    <section class="review">
+      <div class="content" data-aos="fade-right" data-aos-delay="300">
+        <span>testimonials</span>
+        <h3>good news from our clients</h3>
+        <p>
+          The key is when a customer walks away, thinking, 'Wow, I love doing
+          business with them, and I want to tell others about the experience.
+        </p>
+      </div>
+
+      <div class="box-container" data-aos="fade-left" data-aos-delay="600">
+        <div class="box">
+          <p>Not all those who wander are lost</p>
+          <div class="user">
+            <img src="images/pic-1.png" alt="" />
+            <div class="info">
+              <h3>Arunangshu Das</h3>
+              <span>Programmer</span>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <p>Life is either a daring adventure or nothing at all.</p>
+          <div class="user">
+            <img src="images/pic-2.png" alt="" />
+            <div class="info">
+              <h3>Sneha Sarkar</h3>
+              <span>Doctor</span>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <p>Take only memories, leave only footprints</p>
+          <div class="user">
+            <img src="images/pic-3.png" alt="" />
+            <div class="info">
+              <h3>Devraj Bhattacharya</h3>
+              <span>designer</span>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <p>Not all those who wander are lost</p>
+          <div class="user">
+            <img src="images/pic-4.png" alt="" />
+            <div class="info">
+              <h3>Sohini Dey</h3>
+              <span>musician</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blogs" id="blogs">
+      <div class="heading">
+        <span>blogs & posts</span>
+        <h1>we untold stories</h1>
+      </div>
+
+      <div class="box-container">
+        <div class="box" data-aos="fade-up" data-aos-delay="150">
+          <div class="image">
+            <img src="images/blog-1.jpg" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="link"
+              >The journey of a thousand miles begins with a single step.</a
+            >
+            <p>
+              A good traveler has no fixed plans, and is not intent on arriving.
+            </p>
+            <div class="icon">
+              <a href="#"><i class="fas fa-clock"></i> 21st may, 2021</a>
+              <a href="#"><i class="fas fa-user"></i> by admin</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="300">
+          <div class="image">
+            <img src="images/blog-2.jpg" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="link"
+              >Dare to live the life you've always wanted.</a
+            >
+            <p>
+              There are no foreign lands. It is the traveler only who is foreign
+            </p>
+            <div class="icon">
+              <a href="#"><i class="fas fa-clock"></i> 21st may, 2021</a>
+              <a href="#"><i class="fas fa-user"></i> by admin</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="450">
+          <div class="image">
+            <img src="images/blog-3.jpg" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="link"
+              >I haven't been everywhere, but it's on my list.</a
+            >
+            <p>Life is meant for good friends and great adventures</p>
+            <div class="icon">
+              <a href="#"><i class="fas fa-clock"></i> 21st may, 2021</a>
+              <a href="#"><i class="fas fa-user"></i> by admin</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="banner">
+      <div class="content" data-aos="zoom-in-up" data-aos-delay="300">
+        <span>start your adventures</span>
+        <h3>Let's Explore This World</h3>
+        <p>
+          I am not the same, having seen the moon shine on the other side of the
+          world.
+        </p>
+        <a href="#book-form" class="btn">book now</a>
+      </div>
+    </div>
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box" data-aos="fade-up" data-aos-delay="150">
+          <a href="#" class="logo">
+            <i class="fas fa-paper-plane"></i>travel
+          </a>
+          <p>Life is either a daring adventure, or nothing at all</p>
+          <div class="share">
+            <a
+              href="https://www.facebook.com/arunangshu.smile/"
+              class="fab fa-facebook-f"
+            ></a>
+            <a
+              href="https://twitter.com/real_arunangshu"
+              class="fab fa-twitter"
+            ></a>
+            <a
+              href="https://www.instagram.com/call_me_arunangshu/"
+              class="fab fa-instagram"
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/arunangshu-das/"
+              class="fab fa-linkedin"
+            ></a>
+          </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="300">
+          <h3>quick links</h3>
+          <a href="#home" class="links">
+            <i class="fas fa-arrow-right"></i> home
+          </a>
+          <a href="#about" class="links">
+            <i class="fas fa-arrow-right"></i> about
+          </a>
+          <a href="#destination" class="links">
+            <i class="fas fa-arrow-right"></i> destination
+          </a>
+          <a href="#services" class="links">
+            <i class="fas fa-arrow-right"></i> services
+          </a>
+          <a href="#gallery" class="links">
+            <i class="fas fa-arrow-right"></i> gallery
+          </a>
+          <a href="#blogs" class="links">
+            <i class="fas fa-arrow-right"></i> blogs
+          </a>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="450">
+          <h3>contact info</h3>
+          <p><i class="fas fa-map"></i> Kolkata, india</p>
+          <p><i class="fas fa-phone"></i> +9163506974</p>
+          <p><i class="fas fa-envelope"></i> Arunangshudas74@gmail.com</p>
+          <p><i class="fas fa-clock"></i> 7:00am - 10:00pm</p>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="600">
+          <h3>newsletter</h3>
+          <p>subscribe for latest updates</p>
+          <form action="">
+            <input
+              type="email"
+              name=""
+              placeholder="enter your email"
+              class="email"
+              id=""
+            />
+            <input type="submit" value="subscribe" class="btn" />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <div class="credit">
+      created by <span>Arunangshu Das</span> | all rights reserved!
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <script>
+      AOS.init({
+        duration: 800,
+        offset: 150,
+      });
+    </script>
+  </body>
+</html>
