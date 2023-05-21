@@ -1,4 +1,4 @@
-# Responsive Navbar and Video Player
+# Travel Page
 
 This code implements a responsive navbar and video player using HTML, CSS, and JavaScript. The navbar can be toggled by clicking a menu button, and it automatically collapses when scrolling. The video player allows the user to switch between different videos by clicking on control buttons.
 
